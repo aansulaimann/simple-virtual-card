@@ -1,0 +1,72 @@
+/* 
+    created by Aan Sulaiman
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300i,400,600&display=swap');
+
+body {
+    font-family: 'montserrat', sans-serif;
+}
+
+nav,
+nav a {
+    text-transform: uppercase;
+    color: #959775;
+    font-size: 16px;
+}
+
+nav a.active {
+    color: #5BA0BD;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #5BA0BD;
+}
+
+nav h5 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card {
+    background-color: #DBDFE8;
+}
+
+.main {
+    color: #606060;
+}
+
+.main h1 {
+    font-weight: 300;
+    font-size: 70px;
+}
+
+.main h1 span {
+    font-weight: 600;
+    color: #5BA0BD;
+}
+
+.main p {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.main button {
+    background-color: #5BA0BD;
+    color: white;
+    margin-top: 20px;
+}
+
+.card-body {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-img {
+    position: absolute;
+    bottom: -51px;
+    right: -60px;
+    width: 50%;
+}
